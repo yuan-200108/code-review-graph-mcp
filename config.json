@@ -1,0 +1,13 @@
+{
+  "_说明": "code-review-graph MCP 配置。改完需要重载 Cline（Developer: Reload Window）才生效。",
+  "crg_home": "data",
+  "default_repo": "",
+  "auto_watch": false,
+  "tools": "",
+  "_字段说明": {
+    "crg_home": "状态目录（注册表 / 守护进程 / watch 配置 / 日志），相对本目录或绝对路径",
+    "default_repo": "默认仓库根；留空则用 Cline 当前工作区目录。审查别的项目时，AI 可以在工具调用里直接传 repo_root 覆盖",
+    "auto_watch": "true = 后台线程监听文件变化并自动增量更新（大仓库会吃 CPU）",
+    "tools": "工具白名单，逗号分隔；留空 = 全部 30 个工具都可用"
+  }
+}

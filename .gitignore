@@ -1,0 +1,31 @@
+# ── 运行期产物（本机状态，不入库）──
+data/
+logs/
+queue/
+done/
+failed/
+staging/
+
+# ── 缓存 / 编译产物 ──
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# ── 图数据库 / SQLite ──
+*.db
+*.db-wal
+*.db-shm
+graph.db
+
+# ── 本机回滚快照（装依赖前的 pip freeze）──
+pip-freeze.before.txt
+
+# ── 注册脚本生成的配置备份 ──
+.crgbak-*
+
+# ── 编辑器 / 系统 ──
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
